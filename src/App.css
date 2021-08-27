@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+.card {
+  width: "18rem";
+  height: "18rem";
+  margin: "1%";
+}
+.h1 {
+  background-color: #fa4b3e;
+  color: #fae78c;
+}
+.principal {
+  display: flex;
+  align-items: center;
+}
+.secundario {
+  margin: 0 auto;
+}
+.botonmodal {
+  margin: 1%;
+  padding: 12%;
+}
+#imagen {
+  width: "80px";
+  height: "80px";
+}
+#Imagen2 {
+  width: "80px";
+  height: "80px";
+}
+#color {
+  background-color: #2f29fa;
+}
+#color2 {
+  background-color: #2f29fa;
+}
+#clasename {
+  background-color: #50c1fa;
+}
+.siguiente:hover {
+  background-color: #da190b;
+  margin: 1%;
+  margin-left: 2%;
+}
+.atras:hover {
+  background-color: #da190b;
+  margin: 1%;
+  margin-right: 2%;
+}
+
+.icon-bar {
+  width: 95%;
+  background-color: #555;
+  overflow: auto;
+  margin: 1%;
+  border: 0ch;
+}
+
+.icon-bar a {
+  float: left;
+  width: 19%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+.icon-bar input {
+  width: 19%;
+  color: rgb(0, 0, 0);
+}
+.active {
+  background-color: #04aa6d;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  top: -15px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
